@@ -7,6 +7,20 @@ target 'MuGetBaBayName' do
 
   # Pods for MuGetBaBayName
 
+  pod 'LCTabBarController' # Podfile
+
+  pod 'MBProgressHUD'
+  pod 'IQKeyboardManager'
+  pod 'JSONModel'
+  pod 'Masonry'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  #pod 'LCTabBarController'
+  pod 'YYKit'
+  pod 'PGDatePicker'
+  pod 'SXAlertView'
+#  pod 'MantisIMSDKUI',:git => 'https://gitee.com/disu/mantis-uiimsdk.git',:tag => '1.1.6', :branch => 'dev-hujiang-self'
+  pod 'SVProgressHUD'
   target 'MuGetBaBayNameTests' do
     inherit! :search_paths
     # Pods for testing

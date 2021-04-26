@@ -6,7 +6,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+Setting.h"
+#import "MUTabbarVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[MUTabbarVC alloc] init];
+
+    
     return YES;
 }
 
