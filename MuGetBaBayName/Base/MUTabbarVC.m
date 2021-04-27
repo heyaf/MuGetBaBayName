@@ -8,7 +8,7 @@
 #import "MUTabbarVC.h"
 #import "MUHomeViewController.h"
 #import "MUSecViewController.h"
-#import "MUFindOtherViewController.h"
+//#import "MUFindOtherViewController.h"
 #import "MUMineViewController.h"
 @interface MUTabbarVC ()<UITabBarControllerDelegate>
 @property (nonatomic,strong) UITabBarAppearance *tabBarAppearance;
@@ -79,7 +79,7 @@
 
     [self setChildVC:[MUHomeViewController new] title:@"首页" image:@"secIcon" selectedImage:@"secIcon_sel"];
     [self setChildVC:[MUSecViewController new] title:@"测名" image:@"home" selectedImage:@"home_sel"];
-    [self setChildVC:[MUFindOtherViewController new] title:@"发现" image:@"find" selectedImage:@"find_sel"];
+//    [self setChildVC:[MUFindOtherViewController new] title:@"发现" image:@"find" selectedImage:@"find_sel"];
 
     [self setChildVC:[MUMineViewController new] title:@"我的" image:@"mine" selectedImage:@"mine_sel"];
 }
