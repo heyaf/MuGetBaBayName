@@ -44,6 +44,7 @@
 		ABF6B1CC2636CE3900C5C688 /* DesktopLintelPerspective.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF6B1C52636CE3900C5C688 /* DesktopLintelPerspective.xib */; };
 		ABF6B1CD2636CE3900C5C688 /* zLZHPersonalCenterViewz.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B1C62636CE3900C5C688 /* zLZHPersonalCenterViewz.m */; };
 		ABF6B1D32636CF8800C5C688 /* gMUMineDetailVCg.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B1D22636CF8800C5C688 /* gMUMineDetailVCg.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		ABF6B1C92636CE3900C5C688 /* zLZHPersonalCenterViewz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zLZHPersonalCenterViewz.h; sourceTree = "<group>"; };
 		ABF6B1D12636CF8800C5C688 /* gMUMineDetailVCg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gMUMineDetailVCg.h; sourceTree = "<group>"; };
 		ABF6B1D22636CF8800C5C688 /* gMUMineDetailVCg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gMUMineDetailVCg.m; sourceTree = "<group>"; };
+
 		B555089FA7947EB9AB48D865 /* Pods-MuGetBaBayName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName.release.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName/Pods-MuGetBaBayName.release.xcconfig"; sourceTree = "<group>"; };
 		B8CE3425512152227168DD3F /* Pods-MuGetBaBayNameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayNameTests.release.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayNameTests/Pods-MuGetBaBayNameTests.release.xcconfig"; sourceTree = "<group>"; };
 		D67D6D8E851F4319BBC95D52 /* Pods-MuGetBaBayNameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayNameTests.debug.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayNameTests/Pods-MuGetBaBayNameTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -646,6 +648,7 @@
 				04CDF01B263594B5003B722F /* wAppDelegatew.m in Sources */,
 				ABF6B1462636768B00C5C688 /* wAppDelegatew+lSettingl.m in Sources */,
 				ABF6B15C263694CB00C5C688 /* dMUTabbarVCd.m in Sources */,
+
 				04CDF02C263594B7003B722F /* main.m in Sources */,
 				ABF6B1B02636AF8D00C5C688 /* rZYCarViewLayoutr.m in Sources */,
 				04CDF01E263594B5003B722F /* SceneDelegate.m in Sources */,
