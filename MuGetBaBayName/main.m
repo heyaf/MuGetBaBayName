@@ -1,18 +1,12 @@
-//
-//  main.m
-//  MuGetBaBayName
-//
-//  Created by mac on 2021/4/25.
-//
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "wAppDelegatew.h"
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     @autoreleasepool {
-        // Setup code that might create autoreleased objects goes here.
-        appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        
+        appDelegateClassName = NSStringFromClass([wAppDelegatew class]);
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
