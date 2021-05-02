@@ -21,12 +21,12 @@ target 'MuGetBaBayName' do
   pod 'SXAlertView'
 #  pod 'MantisIMSDKUI',:git => 'https://gitee.com/disu/mantis-uiimsdk.git',:tag => '1.1.6', :branch => 'dev-hujiang-self'
   pod 'SVProgressHUD'
-  target 'MuGetBaBayNameTests' do
+  target 'dMuGetBaBayNameTestsd' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'MuGetBaBayNameUITests' do
+  target 'zMuGetBaBayNameUITestsz' do
     # Pods for testing
   end
 

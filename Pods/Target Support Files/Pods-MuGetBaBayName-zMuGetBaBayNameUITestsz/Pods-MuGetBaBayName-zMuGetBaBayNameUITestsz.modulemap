@@ -1,0 +1,6 @@
+framework module Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz {
+  umbrella header "Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz-umbrella.h"
+
+  export *
+  module * { export * }
+}

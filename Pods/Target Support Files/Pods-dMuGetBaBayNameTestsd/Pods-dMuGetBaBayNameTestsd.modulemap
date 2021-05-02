@@ -1,0 +1,6 @@
+framework module Pods_dMuGetBaBayNameTestsd {
+  umbrella header "Pods-dMuGetBaBayNameTestsd-umbrella.h"
+
+  export *
+  module * { export * }
+}

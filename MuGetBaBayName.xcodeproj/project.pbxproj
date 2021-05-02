@@ -17,8 +17,6 @@
 		04CDF036263594B8003B722F /* dMuGetBaBayNameTestsd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDF035263594B8003B722F /* dMuGetBaBayNameTestsd.m */; };
 		04CDF041263594B8003B722F /* zMuGetBaBayNameUITestsz.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDF040263594B8003B722F /* zMuGetBaBayNameUITestsz.m */; };
 		04F567B326385086003C0BD0 /* MUDetailsubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F567B226385086003C0BD0 /* MUDetailsubViewController.m */; };
-		0CCF5F9834F56ECDB144C76F /* Pods_MuGetBaBayNameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76E761AC9EF9B52D8C5F90 /* Pods_MuGetBaBayNameTests.framework */; };
-		2AED89B4C901BC7CF688EDD8 /* Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090DA91DFEF215A772B4D128 /* Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework */; };
 		2F56E6CA663B6FD346C7D82D /* Pods_MuGetBaBayName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C65233A550ED42A3C6EAA43 /* Pods_MuGetBaBayName.framework */; };
 		ABF6B12526366CA500C5C688 /* xMUBaseViewControllerx.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B12426366CA500C5C688 /* xMUBaseViewControllerx.m */; };
 		ABF6B12E263675C800C5C688 /* aMUHomeViewControllera.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B12D263675C800C5C688 /* aMUHomeViewControllera.m */; };
@@ -44,7 +42,8 @@
 		ABF6B1CC2636CE3900C5C688 /* DesktopLintelPerspective.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF6B1C52636CE3900C5C688 /* DesktopLintelPerspective.xib */; };
 		ABF6B1CD2636CE3900C5C688 /* zLZHPersonalCenterViewz.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B1C62636CE3900C5C688 /* zLZHPersonalCenterViewz.m */; };
 		ABF6B1D32636CF8800C5C688 /* gMUMineDetailVCg.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B1D22636CF8800C5C688 /* gMUMineDetailVCg.m */; };
-
+		B5E9B42D0BFA445E12EE2687 /* Pods_dMuGetBaBayNameTestsd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542D87A45E8207AA8128269D /* Pods_dMuGetBaBayNameTestsd.framework */; };
+		F9F9EDFA33496F56B2071AF2 /* Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABFB2DCF706F5CCF00D2E05 /* Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +84,13 @@
 		04CDF042263594B8003B722F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F567B126385086003C0BD0 /* MUDetailsubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUDetailsubViewController.h; sourceTree = "<group>"; };
 		04F567B226385086003C0BD0 /* MUDetailsubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUDetailsubViewController.m; sourceTree = "<group>"; };
-		090DA91DFEF215A772B4D128 /* Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E76E761AC9EF9B52D8C5F90 /* Pods_MuGetBaBayNameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuGetBaBayNameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB716D7088318FFD327A821 /* Pods-MuGetBaBayName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName.debug.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName/Pods-MuGetBaBayName.debug.xcconfig"; sourceTree = "<group>"; };
+		33AE5CB7556B03026D62CDDD /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.debug.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.debug.xcconfig"; sourceTree = "<group>"; };
+		542D87A45E8207AA8128269D /* Pods_dMuGetBaBayNameTestsd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dMuGetBaBayNameTestsd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		555AF9433183527B43A72D77 /* Pods-dMuGetBaBayNameTestsd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dMuGetBaBayNameTestsd.release.xcconfig"; path = "Target Support Files/Pods-dMuGetBaBayNameTestsd/Pods-dMuGetBaBayNameTestsd.release.xcconfig"; sourceTree = "<group>"; };
+		5ABFB2DCF706F5CCF00D2E05 /* Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C62BE0A3D8A0A89AF3627EA /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.release.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.release.xcconfig"; sourceTree = "<group>"; };
+		7BD7B7F7F62686B5B7EEFEF4 /* Pods-dMuGetBaBayNameTestsd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dMuGetBaBayNameTestsd.debug.xcconfig"; path = "Target Support Files/Pods-dMuGetBaBayNameTestsd/Pods-dMuGetBaBayNameTestsd.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF0B082C0B69C099BD884F3 /* Pods-MuGetBaBayName-MuGetBaBayNameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName-MuGetBaBayNameUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName-MuGetBaBayNameUITests/Pods-MuGetBaBayName-MuGetBaBayNameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C65233A550ED42A3C6EAA43 /* Pods_MuGetBaBayName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuGetBaBayName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF6B10B2636617F00C5C688 /* gPrefixHeaderg.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gPrefixHeaderg.pch; sourceTree = "<group>"; };
@@ -137,7 +140,6 @@
 		ABF6B1C92636CE3900C5C688 /* zLZHPersonalCenterViewz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zLZHPersonalCenterViewz.h; sourceTree = "<group>"; };
 		ABF6B1D12636CF8800C5C688 /* gMUMineDetailVCg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gMUMineDetailVCg.h; sourceTree = "<group>"; };
 		ABF6B1D22636CF8800C5C688 /* gMUMineDetailVCg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gMUMineDetailVCg.m; sourceTree = "<group>"; };
-
 		B555089FA7947EB9AB48D865 /* Pods-MuGetBaBayName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayName.release.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayName/Pods-MuGetBaBayName.release.xcconfig"; sourceTree = "<group>"; };
 		B8CE3425512152227168DD3F /* Pods-MuGetBaBayNameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayNameTests.release.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayNameTests/Pods-MuGetBaBayNameTests.release.xcconfig"; sourceTree = "<group>"; };
 		D67D6D8E851F4319BBC95D52 /* Pods-MuGetBaBayNameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuGetBaBayNameTests.debug.xcconfig"; path = "Target Support Files/Pods-MuGetBaBayNameTests/Pods-MuGetBaBayNameTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCF5F9834F56ECDB144C76F /* Pods_MuGetBaBayNameTests.framework in Frameworks */,
+				B5E9B42D0BFA445E12EE2687 /* Pods_dMuGetBaBayNameTestsd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AED89B4C901BC7CF688EDD8 /* Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework in Frameworks */,
+				F9F9EDFA33496F56B2071AF2 /* Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +241,8 @@
 			isa = PBXGroup;
 			children = (
 				9C65233A550ED42A3C6EAA43 /* Pods_MuGetBaBayName.framework */,
-				090DA91DFEF215A772B4D128 /* Pods_MuGetBaBayName_MuGetBaBayNameUITests.framework */,
-				0E76E761AC9EF9B52D8C5F90 /* Pods_MuGetBaBayNameTests.framework */,
+				5ABFB2DCF706F5CCF00D2E05 /* Pods_MuGetBaBayName_zMuGetBaBayNameUITestsz.framework */,
+				542D87A45E8207AA8128269D /* Pods_dMuGetBaBayNameTestsd.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,6 +256,10 @@
 				FAD26FEB2DB0C1027ACD09EB /* Pods-MuGetBaBayName-MuGetBaBayNameUITests.release.xcconfig */,
 				D67D6D8E851F4319BBC95D52 /* Pods-MuGetBaBayNameTests.debug.xcconfig */,
 				B8CE3425512152227168DD3F /* Pods-MuGetBaBayNameTests.release.xcconfig */,
+				33AE5CB7556B03026D62CDDD /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.debug.xcconfig */,
+				6C62BE0A3D8A0A89AF3627EA /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.release.xcconfig */,
+				7BD7B7F7F62686B5B7EEFEF4 /* Pods-dMuGetBaBayNameTestsd.debug.xcconfig */,
+				555AF9433183527B43A72D77 /* Pods-dMuGetBaBayNameTestsd.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -538,7 +544,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MuGetBaBayNameTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-dMuGetBaBayNameTestsd-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +566,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MuGetBaBayName-MuGetBaBayNameUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -573,15 +579,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-MuGetBaBayNameUITests/Pods-MuGetBaBayName-MuGetBaBayNameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-MuGetBaBayNameUITests/Pods-MuGetBaBayName-MuGetBaBayNameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-MuGetBaBayNameUITests/Pods-MuGetBaBayName-MuGetBaBayNameUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz/Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C10DC69B21667C50B7C5FA30 /* [CP] Check Pods Manifest.lock */ = {
@@ -648,7 +654,6 @@
 				04CDF01B263594B5003B722F /* wAppDelegatew.m in Sources */,
 				ABF6B1462636768B00C5C688 /* wAppDelegatew+lSettingl.m in Sources */,
 				ABF6B15C263694CB00C5C688 /* dMUTabbarVCd.m in Sources */,
-
 				04CDF02C263594B7003B722F /* main.m in Sources */,
 				ABF6B1B02636AF8D00C5C688 /* rZYCarViewLayoutr.m in Sources */,
 				04CDF01E263594B5003B722F /* SceneDelegate.m in Sources */,
@@ -833,7 +838,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MVZ2FN583R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = $SRCROOT/MuGetBaBayName/Others/gPrefixHeaderg.pch;
+				GCC_PREFIX_HEADER = "$SRCROOT/MuGetBaBayName/Others/gPrefixHeaderg.pch";
 				INFOPLIST_FILE = MuGetBaBayName/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -855,7 +860,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MVZ2FN583R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = $SRCROOT/MuGetBaBayName/Others/gPrefixHeaderg.pch;
+				GCC_PREFIX_HEADER = "$SRCROOT/MuGetBaBayName/Others/gPrefixHeaderg.pch";
 				INFOPLIST_FILE = MuGetBaBayName/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -870,7 +875,7 @@
 		};
 		04CDF049263594B8003B722F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D67D6D8E851F4319BBC95D52 /* Pods-MuGetBaBayNameTests.debug.xcconfig */;
+			baseConfigurationReference = 7BD7B7F7F62686B5B7EEFEF4 /* Pods-dMuGetBaBayNameTestsd.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -891,7 +896,7 @@
 		};
 		04CDF04A263594B8003B722F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8CE3425512152227168DD3F /* Pods-MuGetBaBayNameTests.release.xcconfig */;
+			baseConfigurationReference = 555AF9433183527B43A72D77 /* Pods-dMuGetBaBayNameTestsd.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -912,7 +917,7 @@
 		};
 		04CDF04C263594B8003B722F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF0B082C0B69C099BD884F3 /* Pods-MuGetBaBayName-MuGetBaBayNameUITests.debug.xcconfig */;
+			baseConfigurationReference = 33AE5CB7556B03026D62CDDD /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M334DN77PT;
@@ -931,7 +936,7 @@
 		};
 		04CDF04D263594B8003B722F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD26FEB2DB0C1027ACD09EB /* Pods-MuGetBaBayName-MuGetBaBayNameUITests.release.xcconfig */;
+			baseConfigurationReference = 6C62BE0A3D8A0A89AF3627EA /* Pods-MuGetBaBayName-zMuGetBaBayNameUITestsz.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M334DN77PT;

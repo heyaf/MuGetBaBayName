@@ -1,6 +1,0 @@
-framework module Pods_MuGetBaBayName_MuGetBaBayNameUITests {
-  umbrella header "Pods-MuGetBaBayName-MuGetBaBayNameUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
